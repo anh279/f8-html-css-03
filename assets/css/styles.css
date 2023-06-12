@@ -100,9 +100,6 @@ a {
   background-color: #fff;
 }
 
-.logo__text {
-}
-
 .logo__brand {
   display: block;
   font-size: 1.8em;
@@ -305,4 +302,61 @@ a {
   font-size: 1.6rem;
   line-height: 1.75;
   color: #575f66;
+}
+/* Work */
+.works {
+  padding: 100px 0;
+  background: #f7fbff;
+}
+
+.works__desc {
+  margin-top: 18px;
+}
+
+.works__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  margin-top: 70px;
+}
+
+.works-item {
+  padding: 44px;
+  border: 16px solid #eaf6ff;
+  border-radius: 4px;
+  transition: 0.25s;
+}
+
+.works-item:hover {
+  transform: translateY(-16px);
+  border: 16px solid #2e80ce;
+}
+
+.works-item__heading {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 1.38;
+  color: #10375c;
+}
+
+.works-item__desc {
+  margin-top: 28px;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #575f66;
+}
+
+.works-item__more {
+  display: inline-block;
+  margin-top: 18px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #2e80ce;
+}
+
+.works-item__more:hover {
+  text-decoration: underline;
 }
